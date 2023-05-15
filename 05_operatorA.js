@@ -1,8 +1,7 @@
 console.log(`1.Length of word and its square`);
 function sqaureOfWordLength(str){
-    var result = str.split(" ");
 
-var length = result.length;
+var length = str.length;
 console.log(`Length of given string is: ${length}`);
 var a = length;
 var b = length;
@@ -17,8 +16,10 @@ console.log(`2.Division and multiplication`);
 function data(){
   var str ="I am Angular Developer";
   var length = str.length;
+  console.log(`Given String is: ${str}`);
   var word = str.split(" ");
-  var lengthWord = word.length;
+  var lengthWord = word.lengt
+  console.log(`Length of given string is: ${length}`);
   var a = length;
   var b = lengthWord;
   var Division = a/b;
