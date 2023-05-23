@@ -23,12 +23,13 @@ var string = "I am very good IT Developer";
         var sumn = 0;
       
         for (let index = 1; index <= num; index++) {
-          sumn += index ** 3;
+          sumn = sumn +index*index*index;
         }
         console.log(`Sum of cubes of 1-5 number is:${sumn}`);
       }
       console.log(`2.Sum of cubes of given number`)
       sumOfCubes(5);
+      
       console.log(`------------------------------------`);
 
       function oddPositionedChars(string) {
