@@ -44,4 +44,4 @@ function capitalizeFirstAndLastLetters(str) {
 
 console.log(`Given String is:How are you mate`);
 var output = capitalizeFirstAndLastLetters("How are you mate");
-console.log(output);  // Output: "HellO WorlD"
+console.log(output);
